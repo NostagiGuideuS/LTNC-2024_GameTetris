@@ -1,0 +1,339 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Resource Files\General Sounds">
+      <UniqueIdentifier>{11f20853-9273-46db-9d11-6923df0c0f90}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\img">
+      <UniqueIdentifier>{47560f98-9b70-4008-ada8-be40b1eeb585}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Font">
+      <UniqueIdentifier>{ed82ebae-0e7f-4366-b94a-711303e010d1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseObject.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Shape.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BoardBase.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Text.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AfterMatch.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Menu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="BaseObject.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Shape.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BoardBase.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CommonFunc.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Text.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AfterMatch.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Menu.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="General Sounds\me_game_clear.wav">
+      <Filter>Resource Files\General Sounds</Filter>
+    </Media>
+    <Media Include="General Sounds\me_game_gameover.wav">
+      <Filter>Resource Files\General Sounds</Filter>
+    </Media>
+    <Media Include="General Sounds\me_game_iget.wav">
+      <Filter>Resource Files\General Sounds</Filter>
+    </Media>
+    <Media Include="General Sounds\me_game_ko_gong.wav">
+      <Filter>Resource Files\General Sounds</Filter>
+    </Media>
+    <Media Include="General Sounds\me_game_ko_vo.wav">
+      <Filter>Resource Files\General Sounds</Filter>
+    </Media>
+    <Media Include="General Sounds\me_game_ko_vo_de.wav">
+      <Filter>Resource Files\General Sounds</Filter>
+    </Media>
+    <Media Include="General Sounds\me_game_ko_vo_es.wav">
+      <Filter>Resource Files\General Sounds</Filter>
+    </Media>
+    <Media Include="General Sounds\me_game_ko_vo_fr.wav">
+      <Filter>Resource Files\General Sounds</Filter>
+    </Media>
+    <Media Include="General Sounds\me_game_ko_vo_it.wav">
+      <Filter>Resource Files\General Sounds</Filter>
+    </Media>
+    <Media Include="General Sounds\me_game_ko_vo_nl.wav">
+      <Filter>Resource Files\General Sounds</Filter>
+    </Media>
+    <Media Include="General Sounds\me_game_ko_vo_ru.wav">
+      <Filter>Resource Files\General Sounds</Filter>
+    </Media>
+    <Media Include="General Sounds\me_game_plvup.wav">
+      <Filter>Resource Files\General Sounds</Filter>
+    </Media>
+    <Media Include="General Sounds\me_game_remain_1.wav">
+      <Filter>Resource Files\General Sounds</Filter>
+    </Media>
+    <Media Include="General Sounds\me_game_remain_2.wav">
+      <Filter>Resource Files\General Sounds</Filter>
+    </Media>
+    <Media Include="General Sounds\me_game_start1.wav">
+      <Filter>Resource Files\General Sounds</Filter>
+    </Media>
+    <Media Include="General Sounds\me_game_start1_de.wav">
+      <Filter>Resource Files\General Sounds</Filter>
+    </Media>
+    <Media Include="General Sounds\me_game_start1_es.wav">
+      <Filter>Resource Files\General Sounds</Filter>
+    </Media>
+    <Media Include="General Sounds\me_game_start1_fr.wav">
+      <Filter>Resource Files\General Sounds</Filter>
+    </Media>
+    <Media Include="General Sounds\me_game_start1_it.wav">
+      <Filter>Resource Files\General Sounds</Filter>
+    </Media>
+    <Media Include="General Sounds\me_game_start1_nl.wav">
+      <Filter>Resource Files\General Sounds</Filter>
+    </Media>
+    <Media Include="General Sounds\me_game_start1_ru.wav">
+      <Filter>Resource Files\General Sounds</Filter>
+    </Media>
+    <Media Include="General Sounds\me_game_start2.wav">
+      <Filter>Resource Files\General Sounds</Filter>
+    </Media>
+    <Media Include="General Sounds\me_game_start2_vo.wav">
+      <Filter>Resource Files\General Sounds</Filter>
+    </Media>
+    <Media Include="General Sounds\me_game_start2_vo_de.wav">
+      <Filter>Resource Files\General Sounds</Filter>
+    </Media>
+    <Media Include="General Sounds\me_game_start2_vo_es.wav">
+      <Filter>Resource Files\General Sounds</Filter>
+    </Media>
+    <Media Include="General Sounds\me_game_start2_vo_fr.wav">
+      <Filter>Resource Files\General Sounds</Filter>
+    </Media>
+    <Media Include="General Sounds\me_game_start2_vo_it.wav">
+      <Filter>Resource Files\General Sounds</Filter>
+    </Media>
+    <Media Include="General Sounds\me_game_start2_vo_nl.wav">
+      <Filter>Resource Files\General Sounds</Filter>
+    </Media>
+    <Media Include="General Sounds\me_game_start2_vo_ru.wav">
+      <Filter>Resource Files\General Sounds</Filter>
+    </Media>
+    <Media Include="General Sounds\se_game_attack1.wav">
+      <Filter>Resource Files\General Sounds</Filter>
+    </Media>
+    <Media Include="General Sounds\se_game_attack2.wav">
+      <Filter>Resource Files\General Sounds</Filter>
+    </Media>
+    <Media Include="General Sounds\se_game_bfall.wav">
+      <Filter>Resource Files\General Sounds</Filter>
+    </Media>
+    <Media Include="General Sounds\se_game_caution.wav">
+      <Filter>Resource Files\General Sounds</Filter>
+    </Media>
+    <Media Include="General Sounds\se_game_change1.wav">
+      <Filter>Resource Files\General Sounds</Filter>
+    </Media>
+    <Media Include="General Sounds\se_game_change2.wav">
+      <Filter>Resource Files\General Sounds</Filter>
+    </Media>
+    <Media Include="General Sounds\se_game_count.wav">
+      <Filter>Resource Files\General Sounds</Filter>
+    </Media>
+    <Media Include="General Sounds\se_game_double.wav">
+      <Filter>Resource Files\General Sounds</Filter>
+    </Media>
+    <Media Include="General Sounds\se_game_emblemget.wav">
+      <Filter>Resource Files\General Sounds</Filter>
+    </Media>
+    <Media Include="General Sounds\se_game_fixa.wav">
+      <Filter>Resource Files\General Sounds</Filter>
+    </Media>
+    <Media Include="General Sounds\se_game_harddrop.wav">
+      <Filter>Resource Files\General Sounds</Filter>
+    </Media>
+    <Media Include="General Sounds\se_game_hold.wav">
+      <Filter>Resource Files\General Sounds</Filter>
+    </Media>
+    <Media Include="General Sounds\se_game_kbcomp.wav">
+      <Filter>Resource Files\General Sounds</Filter>
+    </Media>
+    <Media Include="General Sounds\se_game_kbget.wav">
+      <Filter>Resource Files\General Sounds</Filter>
+    </Media>
+    <Media Include="General Sounds\se_game_ko2.wav">
+      <Filter>Resource Files\General Sounds</Filter>
+    </Media>
+    <Media Include="General Sounds\se_game_landing.wav">
+      <Filter>Resource Files\General Sounds</Filter>
+    </Media>
+    <Media Include="General Sounds\se_game_match.wav">
+      <Filter>Resource Files\General Sounds</Filter>
+    </Media>
+    <Media Include="General Sounds\se_game_move.wav">
+      <Filter>Resource Files\General Sounds</Filter>
+    </Media>
+    <Media Include="General Sounds\se_game_msg.wav">
+      <Filter>Resource Files\General Sounds</Filter>
+    </Media>
+    <Media Include="General Sounds\se_game_offset1.wav">
+      <Filter>Resource Files\General Sounds</Filter>
+    </Media>
+    <Media Include="General Sounds\se_game_offset2.wav">
+      <Filter>Resource Files\General Sounds</Filter>
+    </Media>
+    <Media Include="General Sounds\se_game_pause.wav">
+      <Filter>Resource Files\General Sounds</Filter>
+    </Media>
+    <Media Include="General Sounds\se_game_perfect.wav">
+      <Filter>Resource Files\General Sounds</Filter>
+    </Media>
+    <Media Include="General Sounds\se_game_pinch.wav">
+      <Filter>Resource Files\General Sounds</Filter>
+    </Media>
+    <Media Include="General Sounds\se_game_pinput.wav">
+      <Filter>Resource Files\General Sounds</Filter>
+    </Media>
+    <Media Include="General Sounds\se_game_rotate.wav">
+      <Filter>Resource Files\General Sounds</Filter>
+    </Media>
+    <Media Include="General Sounds\se_game_single.wav">
+      <Filter>Resource Files\General Sounds</Filter>
+    </Media>
+    <Media Include="General Sounds\se_game_softdrop.wav">
+      <Filter>Resource Files\General Sounds</Filter>
+    </Media>
+    <Media Include="General Sounds\se_game_special.wav">
+      <Filter>Resource Files\General Sounds</Filter>
+    </Media>
+    <Media Include="General Sounds\se_game_tactics.wav">
+      <Filter>Resource Files\General Sounds</Filter>
+    </Media>
+    <Media Include="General Sounds\se_game_target.wav">
+      <Filter>Resource Files\General Sounds</Filter>
+    </Media>
+    <Media Include="General Sounds\se_game_tetris.wav">
+      <Filter>Resource Files\General Sounds</Filter>
+    </Media>
+    <Media Include="General Sounds\se_game_triple.wav">
+      <Filter>Resource Files\General Sounds</Filter>
+    </Media>
+    <Media Include="General Sounds\se_sys_alert.wav">
+      <Filter>Resource Files\General Sounds</Filter>
+    </Media>
+    <Media Include="General Sounds\se_sys_cancel.wav">
+      <Filter>Resource Files\General Sounds</Filter>
+    </Media>
+    <Media Include="General Sounds\se_sys_cursor1.wav">
+      <Filter>Resource Files\General Sounds</Filter>
+    </Media>
+    <Media Include="General Sounds\se_sys_cursor2.wav">
+      <Filter>Resource Files\General Sounds</Filter>
+    </Media>
+    <Media Include="General Sounds\se_sys_dialog.wav">
+      <Filter>Resource Files\General Sounds</Filter>
+    </Media>
+    <Media Include="General Sounds\se_sys_ok.wav">
+      <Filter>Resource Files\General Sounds</Filter>
+    </Media>
+    <Media Include="General Sounds\se_sys_select.wav">
+      <Filter>Resource Files\General Sounds</Filter>
+    </Media>
+    <Media Include="General Sounds\ses_sys_save.wav">
+      <Filter>Resource Files\General Sounds</Filter>
+    </Media>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="img\Brick.png">
+      <Filter>Resource Files\img</Filter>
+    </Image>
+    <Image Include="img\Layer 1.png">
+      <Filter>Resource Files\img</Filter>
+    </Image>
+    <Image Include="img\Layer 2.png">
+      <Filter>Resource Files\img</Filter>
+    </Image>
+    <Image Include="img\Layer 3.png">
+      <Filter>Resource Files\img</Filter>
+    </Image>
+    <Image Include="img\Layer 4.png">
+      <Filter>Resource Files\img</Filter>
+    </Image>
+    <Image Include="img\Layer 5.png">
+      <Filter>Resource Files\img</Filter>
+    </Image>
+    <Image Include="img\Layer 6.png">
+      <Filter>Resource Files\img</Filter>
+    </Image>
+    <Image Include="img\Layer 7.png">
+      <Filter>Resource Files\img</Filter>
+    </Image>
+    <Image Include="img\Shadow 1.png">
+      <Filter>Resource Files\img</Filter>
+    </Image>
+    <Image Include="img\Shadow 2.png">
+      <Filter>Resource Files\img</Filter>
+    </Image>
+    <Image Include="img\Shadow 3.png">
+      <Filter>Resource Files\img</Filter>
+    </Image>
+    <Image Include="img\Shadow 4.png">
+      <Filter>Resource Files\img</Filter>
+    </Image>
+    <Image Include="img\Shadow 5.png">
+      <Filter>Resource Files\img</Filter>
+    </Image>
+    <Image Include="img\Shadow 6.png">
+      <Filter>Resource Files\img</Filter>
+    </Image>
+    <Image Include="img\Shadow 7.png">
+      <Filter>Resource Files\img</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Font Include="Font\3X5_____.TTF">
+      <Filter>Resource Files\Font</Filter>
+    </Font>
+    <Font Include="Font\ARCADE.TTF">
+      <Filter>Resource Files\Font</Filter>
+    </Font>
+  </ItemGroup>
+</Project>

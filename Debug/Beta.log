@@ -1,0 +1,31 @@
+﻿  BaseObject.cpp
+  BoardBase.cpp
+  Shape.cpp
+  Text.cpp
+E:\TEerrorist\LTNC-2024_GameTetris-master\SourceCode\Text.cpp(74,22): warning C4244: '*=': conversion from 'double' to 'int', possible loss of data
+E:\TEerrorist\LTNC-2024_GameTetris-master\SourceCode\Text.cpp(75,22): warning C4244: '*=': conversion from 'double' to 'int', possible loss of data
+E:\TEerrorist\LTNC-2024_GameTetris-master\SourceCode\Text.cpp(89,22): warning C4244: '/=': conversion from 'double' to 'int', possible loss of data
+E:\TEerrorist\LTNC-2024_GameTetris-master\SourceCode\Text.cpp(90,22): warning C4244: '/=': conversion from 'double' to 'int', possible loss of data
+  main.cpp
+E:\TEerrorist\LTNC-2024_GameTetris-master\SourceCode\main.cpp(91,15): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+E:\TEerrorist\LTNC-2024_GameTetris-master\SourceCode\main.cpp(114,52): warning C4390: ';': empty controlled statement found; is this the intent?
+E:\TEerrorist\LTNC-2024_GameTetris-master\SourceCode\main.cpp(753,92): warning C4838: conversion from 'double' to 'int' requires a narrowing conversion
+E:\TEerrorist\LTNC-2024_GameTetris-master\SourceCode\main.cpp(753,92): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+E:\TEerrorist\LTNC-2024_GameTetris-master\SourceCode\main.cpp(754,94): warning C4838: conversion from 'double' to 'int' requires a narrowing conversion
+E:\TEerrorist\LTNC-2024_GameTetris-master\SourceCode\main.cpp(754,94): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+E:\TEerrorist\LTNC-2024_GameTetris-master\SourceCode\main.cpp(755,94): warning C4838: conversion from 'double' to 'int' requires a narrowing conversion
+E:\TEerrorist\LTNC-2024_GameTetris-master\SourceCode\main.cpp(755,94): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+E:\TEerrorist\LTNC-2024_GameTetris-master\SourceCode\main.cpp(755,138): warning C4838: conversion from 'double' to 'int' requires a narrowing conversion
+E:\TEerrorist\LTNC-2024_GameTetris-master\SourceCode\main.cpp(755,138): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+E:\TEerrorist\LTNC-2024_GameTetris-master\SourceCode\main.cpp(756,111): warning C4838: conversion from 'double' to 'int' requires a narrowing conversion
+E:\TEerrorist\LTNC-2024_GameTetris-master\SourceCode\main.cpp(756,111): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+E:\TEerrorist\LTNC-2024_GameTetris-master\SourceCode\main.cpp(756,155): warning C4838: conversion from 'double' to 'int' requires a narrowing conversion
+E:\TEerrorist\LTNC-2024_GameTetris-master\SourceCode\main.cpp(756,155): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+E:\TEerrorist\LTNC-2024_GameTetris-master\SourceCode\main.cpp(1094,94): warning C4838: conversion from 'double' to 'int' requires a narrowing conversion
+E:\TEerrorist\LTNC-2024_GameTetris-master\SourceCode\main.cpp(1094,94): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+E:\TEerrorist\LTNC-2024_GameTetris-master\SourceCode\main.cpp(1095,94): warning C4838: conversion from 'double' to 'int' requires a narrowing conversion
+E:\TEerrorist\LTNC-2024_GameTetris-master\SourceCode\main.cpp(1095,94): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+E:\TEerrorist\LTNC-2024_GameTetris-master\SourceCode\main.cpp(1096,106): warning C4838: conversion from 'double' to 'int' requires a narrowing conversion
+E:\TEerrorist\LTNC-2024_GameTetris-master\SourceCode\main.cpp(1096,106): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+  Generating Code...
+  Beta.vcxproj -> E:\TEerrorist\LTNC-2024_GameTetris-master\SourceCode\Debug\TETRIS.exe

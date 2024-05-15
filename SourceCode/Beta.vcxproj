@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{be46584f-c6c5-48f9-a2f6-559f7916d9c7}</ProjectGuid>
+    <RootNamespace>Beta</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>TETRIS</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>$(SolutionDir)\SDL x86\SDL2_mixer x86\include;$(SolutionDir)\SDL x86\SDL2_ttf x86\include;$(SolutionDir)\SDL x86\SDL2_image x86\include;$(SolutionDir)\SDL x86\SDL2 x86\include;$(IncludePath)</IncludePath>
+    <LibraryPath>$(SolutionDir)\SDL x86\SDL2_ttf x86\lib;$(SolutionDir)\SDL x86\SDL2_mixer x86\lib;$(SolutionDir)\SDL x86\SDL2_image x86\lib;$(SolutionDir)\SDL x86\SDL2 x86\lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <LibraryPath>$(SolutionDir)\SDL x86\SDL2_mixer x86\lib;$(SolutionDir)\SDL x86\SDL2_ttf x86\lib;$(SolutionDir)\SDL x86\SDL2_image x86\lib;$(SolutionDir)\SDL x86\SDL2 x86\lib;$(LibraryPath)</LibraryPath>
+    <ExecutablePath>$(ExecutablePath)</ExecutablePath>
+    <IncludePath>$(SolutionDir)\SDL x86\SDL2_mixer x86\include;$(SolutionDir)\SDL x86\SDL2_ttf x86\include;$(SolutionDir)\SDL x86\SDL2_image x86\include;$(SolutionDir)\SDL x86\SDL2 x86\include;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>SDL2.lib;SDL2main.lib;SDL2_image.lib;SDL2_mixer.lib;SDL2_ttf.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>SDL2.lib;SDL2main.lib;SDL2_image.lib;SDL2_mixer.lib;SDL2_ttf.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="AfterMatch.cpp" />
+    <ClCompile Include="BaseObject.cpp" />
+    <ClCompile Include="BoardBase.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Menu.cpp" />
+    <ClCompile Include="Shape.cpp" />
+    <ClCompile Include="Text.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AfterMatch.h" />
+    <ClInclude Include="BaseObject.h" />
+    <ClInclude Include="CommonFunc.h" />
+    <ClInclude Include="BoardBase.h" />
+    <ClInclude Include="Menu.h" />
+    <ClInclude Include="Shape.h" />
+    <ClInclude Include="Text.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="General Sounds\me_game_clear.wav" />
+    <Media Include="General Sounds\me_game_gameover.wav" />
+    <Media Include="General Sounds\me_game_iget.wav" />
+    <Media Include="General Sounds\me_game_ko_gong.wav" />
+    <Media Include="General Sounds\me_game_ko_vo.wav" />
+    <Media Include="General Sounds\me_game_ko_vo_de.wav" />
+    <Media Include="General Sounds\me_game_ko_vo_es.wav" />
+    <Media Include="General Sounds\me_game_ko_vo_fr.wav" />
+    <Media Include="General Sounds\me_game_ko_vo_it.wav" />
+    <Media Include="General Sounds\me_game_ko_vo_nl.wav" />
+    <Media Include="General Sounds\me_game_ko_vo_ru.wav" />
+    <Media Include="General Sounds\me_game_plvup.wav" />
+    <Media Include="General Sounds\me_game_remain_1.wav" />
+    <Media Include="General Sounds\me_game_remain_2.wav" />
+    <Media Include="General Sounds\me_game_start1.wav" />
+    <Media Include="General Sounds\me_game_start1_de.wav" />
+    <Media Include="General Sounds\me_game_start1_es.wav" />
+    <Media Include="General Sounds\me_game_start1_fr.wav" />
+    <Media Include="General Sounds\me_game_start1_it.wav" />
+    <Media Include="General Sounds\me_game_start1_nl.wav" />
+    <Media Include="General Sounds\me_game_start1_ru.wav" />
+    <Media Include="General Sounds\me_game_start2.wav" />
+    <Media Include="General Sounds\me_game_start2_vo.wav" />
+    <Media Include="General Sounds\me_game_start2_vo_de.wav" />
+    <Media Include="General Sounds\me_game_start2_vo_es.wav" />
+    <Media Include="General Sounds\me_game_start2_vo_fr.wav" />
+    <Media Include="General Sounds\me_game_start2_vo_it.wav" />
+    <Media Include="General Sounds\me_game_start2_vo_nl.wav" />
+    <Media Include="General Sounds\me_game_start2_vo_ru.wav" />
+    <Media Include="General Sounds\ses_sys_save.wav" />
+    <Media Include="General Sounds\se_game_attack1.wav" />
+    <Media Include="General Sounds\se_game_attack2.wav" />
+    <Media Include="General Sounds\se_game_bfall.wav" />
+    <Media Include="General Sounds\se_game_caution.wav" />
+    <Media Include="General Sounds\se_game_change1.wav" />
+    <Media Include="General Sounds\se_game_change2.wav" />
+    <Media Include="General Sounds\se_game_count.wav" />
+    <Media Include="General Sounds\se_game_double.wav" />
+    <Media Include="General Sounds\se_game_emblemget.wav" />
+    <Media Include="General Sounds\se_game_fixa.wav" />
+    <Media Include="General Sounds\se_game_harddrop.wav" />
+    <Media Include="General Sounds\se_game_hold.wav" />
+    <Media Include="General Sounds\se_game_kbcomp.wav" />
+    <Media Include="General Sounds\se_game_kbget.wav" />
+    <Media Include="General Sounds\se_game_ko2.wav" />
+    <Media Include="General Sounds\se_game_landing.wav" />
+    <Media Include="General Sounds\se_game_match.wav" />
+    <Media Include="General Sounds\se_game_move.wav" />
+    <Media Include="General Sounds\se_game_msg.wav" />
+    <Media Include="General Sounds\se_game_offset1.wav" />
+    <Media Include="General Sounds\se_game_offset2.wav" />
+    <Media Include="General Sounds\se_game_pause.wav" />
+    <Media Include="General Sounds\se_game_perfect.wav" />
+    <Media Include="General Sounds\se_game_pinch.wav" />
+    <Media Include="General Sounds\se_game_pinput.wav" />
+    <Media Include="General Sounds\se_game_rotate.wav" />
+    <Media Include="General Sounds\se_game_single.wav" />
+    <Media Include="General Sounds\se_game_softdrop.wav" />
+    <Media Include="General Sounds\se_game_special.wav" />
+    <Media Include="General Sounds\se_game_tactics.wav" />
+    <Media Include="General Sounds\se_game_target.wav" />
+    <Media Include="General Sounds\se_game_tetris.wav" />
+    <Media Include="General Sounds\se_game_triple.wav" />
+    <Media Include="General Sounds\se_sys_alert.wav" />
+    <Media Include="General Sounds\se_sys_cancel.wav" />
+    <Media Include="General Sounds\se_sys_cursor1.wav" />
+    <Media Include="General Sounds\se_sys_cursor2.wav" />
+    <Media Include="General Sounds\se_sys_dialog.wav" />
+    <Media Include="General Sounds\se_sys_ok.wav" />
+    <Media Include="General Sounds\se_sys_select.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="img\Brick.png" />
+    <Image Include="img\Layer 1.png" />
+    <Image Include="img\Layer 2.png" />
+    <Image Include="img\Layer 3.png" />
+    <Image Include="img\Layer 4.png" />
+    <Image Include="img\Layer 5.png" />
+    <Image Include="img\Layer 6.png" />
+    <Image Include="img\Layer 7.png" />
+    <Image Include="img\Shadow 1.png" />
+    <Image Include="img\Shadow 2.png" />
+    <Image Include="img\Shadow 3.png" />
+    <Image Include="img\Shadow 4.png" />
+    <Image Include="img\Shadow 5.png" />
+    <Image Include="img\Shadow 6.png" />
+    <Image Include="img\Shadow 7.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Font Include="Font\3X5_____.TTF" />
+    <Font Include="Font\ARCADE.TTF" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
